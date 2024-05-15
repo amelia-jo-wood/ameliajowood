@@ -52,15 +52,6 @@ content {color: white;
   color: white
 }
 
-.about
- width: 60%;
-  background: #f4f2e4;
-  color: white;
-  min-height: 30px;
-  padding: 10px;
-  position: fixed;
-  text-align: center;
-
 .footer {
   width: 100%;
   min-height: 30px;
@@ -75,40 +66,4 @@ content {color: white;
 .icons .instagram { background: img src(ig-in-color.png) left top no-repeat; }
 .icons .tiktok { background: img src(tiktok-in-color.png) left top no-repeat; }
 
-/* Styles for larger screens */
-@media screen and (min-width: 720px) {
-  
-  .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
-      max-width: 1200px;
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
-      margin: 0 auto;
-  }
 
-  header {
-    min-height: 470px;
-  }
-
-  .nav {
-    max-width: 1200px;
-    padding: 0 30px;
-  }
-
-
-  main {
-    padding-top: 20px;
-  }
-
-  main p {
-    line-height: 1.6em;
-  }
-
-  footer {
-    font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
-  }
-
-}
