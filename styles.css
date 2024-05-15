@@ -87,24 +87,15 @@ a:hover {
 .footer ul li {
   display: inline-block;
 }
-
-a.social-links {
-  display: inline-block;
- 
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  transition: all .5s;
 }
 a.Etsy {
-  background-image: url(etsy-in-color.png);
+  background: url(etsy-in-color.png) left bottom no-repeat;
 }
 a.Instagram {
-  background-image: url(ig-in-color.png);
+  background: url(ig-in-color.png) left bottom no-repeat;
 }
 a.Tiktok {
-  background-image: url(tiktok-in-color.png);
+  background: url(tiktok-in-color.png) left bottom no-repeat;
 }
 a.social:hover {
   opacity: 1;
