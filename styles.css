@@ -74,14 +74,19 @@ content {color: white;
 
 /* Set a specific color for each brand */
 
-/* Facebook */
-.fa-facebook {
+/* tiktok */
+.fa-tiktok {
   background: #3B5998;
   color: white;
 }
 
-/* Twitter */
-.fa-twitter {
+/* Instagram */
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+/* Etsy */
+.fa-etsy {
   background: #55ACEE;
   color: white;
 }
