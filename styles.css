@@ -11,6 +11,12 @@ body {
   color: white;
   background: #f5e998;
 }
+content {color: white;
+       font-family: didot;
+       font-size: 40px;
+      font-weight: 3500;
+      line-height: 24px;}
+
 /* Link Styles */
 
 a {
