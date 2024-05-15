@@ -56,17 +56,14 @@ a:hover {
   color: white
 }
 
-
-
-.tag {
-  background-color: #efefef;
-  color: black;
+.about
+ width: 60%;
+  background: #f4f2e4;
+  color: white;
+  min-height: 30px;
   padding: 10px;
-  border-radius: 5px;
-  display: table;
-  margin: 10px auto;
-} 
-
+  position: fixed;
+  text-align: center;
 
 footer {
   width: 100%;
