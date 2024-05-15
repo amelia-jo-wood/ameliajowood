@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'century gothic', sans-serif;
   color: white;
-  background: ##f5e998;
+  background: #f5e998;
 }
 /* Link Styles */
 
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #f5e998;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/ClevelandSkylineNeo-Rouge-copy.jpg') no-repeat ;
+  background: url('AMELIA WOOD.png') no-repeat ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -81,9 +81,7 @@ header .profile-image:hover {
   filter: FlipH;
         -ms-filter: "FlipH";
 }
-.card .thumbnail{
-  width:100%;
-}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -92,41 +90,7 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
-.location {
-  background-color: #222;
-  color: yellow;
-}
-.card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
-}
-.card:hover {
-  border-color: #ff99ff;
-}
 
-ul.skills {
-  padding: 0;
-  text-align: center;
-}
-
-.skills li {
-  border-radius: 6px;
-  display: inline-block;
-  background: #ff9904;
-  color: white;
-  padding: 5px 10px;
-  margin: 2px;
-}
-
-.skills li:nth-child(odd) {
-  background: #0399ff;
-}
 
 footer {
   width: 100%;
@@ -159,13 +123,13 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
+a.Etsy {
   background-image: url(images/twitter.svg);
 }
-a.linkedin {
+a.Instagram {
   background-image: url(images/linkedin.svg);
 }
-a.github {
+a.Tiktok {
   background-image: url(images/github.svg);
 }
 a.social:hover {
