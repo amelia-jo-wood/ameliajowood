@@ -17,16 +17,6 @@ content {color: white;
       font-weight: 3500;
       line-height: 24px;}
 
-/* Link Styles */
-
-a {
-  text-decoration: none;
-  color: black;
-}
-a:hover {
-  color: black;
-}
-
 /* Section Styles */
 
 .main-nav {
@@ -77,32 +67,13 @@ a:hover {
   padding: 20px 40px 20px;
 }
 
-
-.footer ul {
-  list-style-type: square;
-  margin: 5px;
-  padding: 10px;
+.icons {
+    margin-left:30px;
 }
 
-.footer ul li {
-  display: inline-block;
-}
-}
-a.Etsy {
-  background: url(etsy-in-color.png) left bottom no-repeat;
-}
-a.Instagram {
-  background: url(ig-in-color.png) left bottom no-repeat;
-}
-a.Tiktok {
-  background: url(tiktok-in-color.png) left bottom no-repeat;
-}
-a.social:hover {
-  opacity: 1;
-}
-.clearfix {
-  clear: both;
-}
+.icons .etsy { background: url(etsy-in-color.png) left top no-repeat; }
+.icons .instagram { background: url(ig-in-color.png) left top no-repeat; }
+.icons .tiktok { background: url(tiktok-in-color.png) left top no-repeat; }
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
