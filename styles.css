@@ -70,16 +70,12 @@ a:hover {
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 20px 40px 20px;
 }
 
-footer .copyright {
-  top: -8px;
-  font-size: .75em;
-}
 
 footer ul {
-  list-style-type: none;
+  list-style-type: square;
   margin: 0;
   padding: 0;
 }
