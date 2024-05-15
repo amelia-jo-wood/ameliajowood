@@ -26,6 +26,7 @@ a:hover {
 .main-nav {
   width: 100%;
   background: #f5e998;
+  color: white;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -94,13 +95,13 @@ a.social {
   transition: all .5s;
 }
 a.Etsy {
-  background-image: url(images/twitter.svg);
+  background-image: url(etsy-in-color.png);
 }
 a.Instagram {
-  background-image: url(images/linkedin.svg);
+  background-image: url(ig-in-color.png);
 }
 a.Tiktok {
-  background-image: url(images/github.svg);
+  background-image: url(tiktok-in-color.png);
 }
 a.social:hover {
   opacity: 1;
