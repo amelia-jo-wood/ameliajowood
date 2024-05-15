@@ -65,24 +65,24 @@ a:hover {
   position: fixed;
   text-align: center;
 
-footer {
+.footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 40px 20px;
 }
 
 
-footer ul {
+.footer ul {
   list-style-type: square;
   margin: 5px;
   padding: 10px;
 }
 
-footer ul li {
+.footer ul li {
   display: inline-block;
 }
 
-a.social {
+a.social-links {
   display: inline-block;
  
   margin-left: 5px;
