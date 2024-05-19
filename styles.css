@@ -2,20 +2,7 @@
 * { 
   box-sizing: border-box;
 }
-  
-body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'century gothic', sans-serif;
-  color: white;
-  background-color: #f5e998;
-}
-content {color: white;
-       font-family: <myfont>;
-       font-size: 40px;
-      font-weight: 3500;
-      line-height: 24px;}
+
 
 /* Add a background color to the top navigation */
 .topnav {
