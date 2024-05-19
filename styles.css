@@ -73,6 +73,17 @@ content {color: white;
   right: 0;
   background-color: #f5e998;
 }
+.icon-bar {
+  width: 90px; /* Set a specific width */
+  background-color: #f5e998; /* background */
+}
+.icon-bar a:hover {
+  background-color: #f4e68b; /* Add a hover color */
+}
+
+.active {
+  background-color: #f1e174; /* Add an active/current color */
+}
 
 
 
