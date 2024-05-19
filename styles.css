@@ -24,12 +24,12 @@ banner{
 		background-size: auto,cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
-		text-align: center;
+		text-align: left-align;
   
   footer {
 		background: #f0f0f0;
 		padding: 4em 0 6em 0;
-		text-align: center;
+		text-align: left-align;
 	}
 
 	footer .icons a {
@@ -53,7 +53,7 @@ banner{
   min-height: 30px;
   padding: 10px;
   position: fixed;
-  text-align: center;
+  text-align: right-align;
   border-radius:50%
 }
 .nav {
@@ -81,26 +81,7 @@ banner{
   color: white
 }
 
-.footer {
-  width: 100%;
-  min-height: 30px;
-  padding: 480px 480px 420px;
-}
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius:50%;
-  background-color: #f5e998
-}
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
 
 
 
