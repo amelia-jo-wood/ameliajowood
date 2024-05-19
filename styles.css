@@ -60,16 +60,33 @@ content {color: white;
   color: #5e5108;
 }
     
+/* Add a background color to the icon bar */
 .icon-bar {
-  width: 90px; /* Set a specific width */
-  background-color: #f5e998; /* background */
-}
-.icon-bar a:hover {
-  background-color: #f4e68b; /* Add a hover color */
+  background-color: #f5e998;
+  overflow: hidden;
 }
 
-.active {
-  background-color: #f1e174; /* Add an active/current color */
+/* Style the links inside the icon bar */
+.icon-bar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.icon-bar a:hover {
+  background-color: #f4e68b;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.icon-bar a.active {
+  background-color: #f1e174;
+  color: white;
+}
 }
 /* embed font */
 // <myfont>: Use a unique and descriptive class name
