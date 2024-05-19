@@ -90,12 +90,18 @@ content {color: white;
   font-weight: <400>;
   font-style: normal;
 }
-
 .container {
-display: flex;
+width: 100%;
+overflow: auto; /* To clear the float */
 }
 
-.column {
+.first-column {
+float: left;
+width: 50%;
+}
+
+.second-column {
+float: right;
 width: 50%;
 }
 
