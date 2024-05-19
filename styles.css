@@ -93,6 +93,16 @@ content {color: white;
 .active {
   background-color: #f1e174; /* Add an active/current color */
 }
+/* embed font */
+// <myfont>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.playfair-display-<myfont> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
 
 
 
