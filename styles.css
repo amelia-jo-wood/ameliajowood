@@ -17,23 +17,7 @@ content {color: white;
       font-weight: 3500;
       line-height: 24px;}
   
-  footer {
-		background: #f0f0f0;
-		padding: 4em 0 6em 0;
-		text-align: left-align;
-	}
-main-nav {
-	ul.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 60px;
-} 
 
-a.name {
-  display: block;
-}
-}
 
 
 
