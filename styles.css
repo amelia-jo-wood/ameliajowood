@@ -12,7 +12,7 @@ body {
   background-color: #f5e998;
 }
 content {color: white;
-       font-family: didot;
+       font-family: <myfont>;
        font-size: 40px;
       font-weight: 3500;
       line-height: 24px;}
@@ -91,7 +91,13 @@ content {color: white;
   font-style: normal;
 }
 
+.container {
+display: flex;
+}
 
+.column {
+width: 50%;
+}
 
 
 
