@@ -9,13 +9,40 @@ body {
   text-align: center;
   font-family: 'century gothic', sans-serif;
   color: white;
-  background: #f5e998;
+  background-color: #f5e998;
 }
 content {color: white;
        font-family: didot;
        font-size: 40px;
       font-weight: 3500;
       line-height: 24px;}
+banner{
+  background-color: #f5e998;
+  background-image: url("AMELIA WOOD.png")
+  background-position: top left;
+	background-repeat: repeat;
+		background-size: auto,cover;
+		color: #fff;
+		padding: 12em 0 20em 0;
+		text-align: center;
+  
+  footer {
+		background: #f0f0f0;
+		padding: 4em 0 6em 0;
+		text-align: center;
+	}
+
+	footer .icons a {
+			-moz-transition: opacity 0.2s ease-in-out;
+			-webkit-transition: opacity 0.2s ease-in-out;
+			-ms-transition: opacity 0.2s ease-in-out;
+			transition: opacity 0.2s ease-in-out;
+			opacity: 0.35;
+		}
+
+		footer .icons a:hover {
+				opacity: 0.75;
+			}
 
 /* Section Styles */
 
@@ -67,6 +94,7 @@ content {color: white;
   text-align: center;
   text-decoration: none;
   border-radius:50%;
+  background-color: #f5e998
 }
 
 /* Add a hover effect if you want */
@@ -74,23 +102,5 @@ content {color: white;
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
-/* tiktok */
-.fa-tiktok {
-  background: #3B5998;
-  color: white;
-}
-
-/* Instagram */
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-/* Etsy */
-.fa-etsy {
-  background: #e07d22;
-  color: white;
-}
 
 
