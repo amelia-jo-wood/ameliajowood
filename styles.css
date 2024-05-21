@@ -45,10 +45,11 @@ body {
 .icon-bar a {
   float: left;
   color: white;
-  text-align: bottom;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
+  display: inline-block;
 }
 
 /* Change the color of links on hover */
