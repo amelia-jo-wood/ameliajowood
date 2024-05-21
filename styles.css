@@ -43,12 +43,12 @@ body {
 
 /* Style the links inside the icon bar */
 .icon-bar a {
-  float: right;
+  float: left;
   color: white;
-  text-align: center;
+  text-align: bottom;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 /* Change the color of links on hover */
